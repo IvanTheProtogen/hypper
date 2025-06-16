@@ -2116,11 +2116,11 @@
     },
     {
       "name": "ButteBus",
-      "uniqueId": 33.5968742,
+      "uniqueId": 33.4336624,
       "position": {
-        "x": -1.48919,
-        "y": -1.01995063,
-        "z": 5.50807476
+        "x": -1.33936155,
+        "y": -1.06052065,
+        "z": 5.52404451
       },
       "rotation": {
         "x": 0.270598084,
@@ -10977,7 +10977,7 @@
       "instantiationData": null,
       "runtimeData": {
         "connectedIds": [],
-        "Text": "<i><color=cyan>See the manual to the right to learn how to play the videogame.</color></i>",
+        "Text": "<i><color=cyan>See the manual to the left to learn how to play the videogame.</color></i>",
         "Color": null
       }
     },
@@ -11320,6 +11320,339 @@
       "isKinematic": true,
       "instantiationData": null,
       "runtimeData": null
+    },
+    {
+      "name": "ButteBus",
+      "uniqueId": 190.278412,
+      "position": {
+        "x": 13.7149267,
+        "y": -0.156700611,
+        "z": 1.46787179
+      },
+      "rotation": {
+        "x": -0.5,
+        "y": 0.5,
+        "z": -0.5,
+        "w": -0.5
+      },
+      "isKinematic": true,
+      "instantiationData": null,
+      "runtimeData": null
+    },
+    {
+      "name": "ButteBus",
+      "uniqueId": 188.43512,
+      "position": {
+        "x": 13.7149267,
+        "y": -0.156700611,
+        "z": -0.557999253
+      },
+      "rotation": {
+        "x": -0.5,
+        "y": 0.5,
+        "z": -0.5,
+        "w": -0.5
+      },
+      "isKinematic": true,
+      "instantiationData": null,
+      "runtimeData": null
+    },
+    {
+      "name": "Monitor",
+      "uniqueId": 186.3845,
+      "position": {
+        "x": 13.6402493,
+        "y": 0.356037259,
+        "z": 0.448711574
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.707106769,
+        "z": 0.0,
+        "w": -0.7071068
+      },
+      "isKinematic": true,
+      "instantiationData": null,
+      "runtimeData": {
+        "connectedIds": [],
+        "Text": "<i>Auto-spawn invaders</i>",
+        "Color": null
+      }
+    },
+    {
+      "name": "PasswordPanel",
+      "uniqueId": 182.968948,
+      "position": {
+        "x": 13.3326712,
+        "y": -0.0532296151,
+        "z": 2.28166485
+      },
+      "rotation": {
+        "x": -0.5,
+        "y": 0.5,
+        "z": -0.5,
+        "w": -0.5
+      },
+      "isKinematic": true,
+      "instantiationData": {
+        "Password": "2468"
+      },
+      "runtimeData": {
+        "connectedIds": [
+          181.206039
+        ]
+      }
+    },
+    {
+      "name": "Timer",
+      "uniqueId": 179.385544,
+      "position": {
+        "x": 13.3326712,
+        "y": 0.07262407,
+        "z": 1.27284825
+      },
+      "rotation": {
+        "x": -0.5,
+        "y": 0.5,
+        "z": -0.5,
+        "w": -0.5
+      },
+      "isKinematic": true,
+      "instantiationData": {
+        "Time": 3.0
+      },
+      "runtimeData": {
+        "connectedIds": [
+          178.722229,
+          1395.06665
+        ]
+      }
+    },
+    {
+      "name": "Timer",
+      "uniqueId": 178.722229,
+      "position": {
+        "x": 13.3326712,
+        "y": 0.0871751159,
+        "z": 0.976988256
+      },
+      "rotation": {
+        "x": -0.5,
+        "y": 0.5,
+        "z": -0.5,
+        "w": -0.5
+      },
+      "isKinematic": true,
+      "instantiationData": {
+        "Time": 3.0
+      },
+      "runtimeData": {
+        "connectedIds": [
+          178.214615,
+          1271.4137
+        ]
+      }
+    },
+    {
+      "name": "Timer",
+      "uniqueId": 178.214615,
+      "position": {
+        "x": 13.3326712,
+        "y": 0.08655681,
+        "z": 0.6685853
+      },
+      "rotation": {
+        "x": -0.5,
+        "y": 0.5,
+        "z": -0.5,
+        "w": -0.5
+      },
+      "isKinematic": true,
+      "instantiationData": {
+        "Time": 3.0
+      },
+      "runtimeData": {
+        "connectedIds": [
+          177.866272,
+          1340.55444
+        ]
+      }
+    },
+    {
+      "name": "Timer",
+      "uniqueId": 177.866272,
+      "position": {
+        "x": 13.3326674,
+        "y": 0.08459751,
+        "z": 0.314780354
+      },
+      "rotation": {
+        "x": -0.5,
+        "y": 0.5,
+        "z": -0.5,
+        "w": -0.5
+      },
+      "isKinematic": true,
+      "instantiationData": {
+        "Time": 3.0
+      },
+      "runtimeData": {
+        "connectedIds": [
+          177.772552,
+          1464.95117
+        ]
+      }
+    },
+    {
+      "name": "Timer",
+      "uniqueId": 177.772552,
+      "position": {
+        "x": 13.3326674,
+        "y": 0.11195977,
+        "z": -0.0005079508
+      },
+      "rotation": {
+        "x": -0.5,
+        "y": 0.5,
+        "z": -0.5,
+        "w": -0.5
+      },
+      "isKinematic": true,
+      "instantiationData": {
+        "Time": 3.0
+      },
+      "runtimeData": {
+        "connectedIds": [
+          177.882736,
+          1271.4137,
+          1340.55444
+        ]
+      }
+    },
+    {
+      "name": "Timer",
+      "uniqueId": 177.882736,
+      "position": {
+        "x": 13.3326674,
+        "y": 0.079197526,
+        "z": -0.3412434
+      },
+      "rotation": {
+        "x": -0.5,
+        "y": 0.5,
+        "z": -0.5,
+        "w": -0.5
+      },
+      "isKinematic": true,
+      "instantiationData": {
+        "Time": 3.0
+      },
+      "runtimeData": {
+        "connectedIds": [
+          178.271439,
+          1217.17761
+        ]
+      }
+    },
+    {
+      "name": "Timer",
+      "uniqueId": 178.271439,
+      "position": {
+        "x": 13.3326674,
+        "y": 0.0761258155,
+        "z": -0.711068034
+      },
+      "rotation": {
+        "x": -0.5,
+        "y": 0.5,
+        "z": -0.5,
+        "w": -0.5
+      },
+      "isKinematic": true,
+      "instantiationData": {
+        "Time": 3.0
+      },
+      "runtimeData": {
+        "connectedIds": [
+          178.993683,
+          1271.4137
+        ]
+      }
+    },
+    {
+      "name": "Timer",
+      "uniqueId": 178.993683,
+      "position": {
+        "x": 13.3326674,
+        "y": 0.10820587,
+        "z": -1.1054194
+      },
+      "rotation": {
+        "x": -0.5,
+        "y": 0.5,
+        "z": -0.5,
+        "w": -0.5
+      },
+      "isKinematic": true,
+      "instantiationData": {
+        "Time": 3.0
+      },
+      "runtimeData": {
+        "connectedIds": [
+          181.206039,
+          1271.4137
+        ]
+      }
+    },
+    {
+      "name": "LogicGate",
+      "uniqueId": 181.206039,
+      "position": {
+        "x": 13.3326712,
+        "y": 0.054805994,
+        "z": 1.85551178
+      },
+      "rotation": {
+        "x": -0.5,
+        "y": 0.5,
+        "z": -0.5,
+        "w": -0.5
+      },
+      "isKinematic": true,
+      "instantiationData": {
+        "Mode": "OR"
+      },
+      "runtimeData": {
+        "connectedIds": [
+          180.209656,
+          1340.55444
+        ]
+      }
+    },
+    {
+      "name": "Timer",
+      "uniqueId": 180.209656,
+      "position": {
+        "x": 13.3326712,
+        "y": 0.0677118748,
+        "z": 1.56363654
+      },
+      "rotation": {
+        "x": -0.5,
+        "y": 0.5,
+        "z": -0.5,
+        "w": -0.5
+      },
+      "isKinematic": true,
+      "instantiationData": {
+        "Time": 3.0
+      },
+      "runtimeData": {
+        "connectedIds": [
+          179.385544,
+          1271.4137
+        ]
+      }
     }
   ]
 }
